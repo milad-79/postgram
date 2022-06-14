@@ -1,0 +1,36 @@
+.setting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.setting-title{
+    color: #2b2d42;
+    margin-bottom: 10px;
+}
+
+.setting-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.setting-item{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.setting-item:hover{
+    background-color: #e8e9f7;
+}
+
+.title-setting-item{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}

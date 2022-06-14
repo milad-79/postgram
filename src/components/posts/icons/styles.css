@@ -1,0 +1,16 @@
+.Heart{
+    animation: like .3s ease;
+}
+
+.Heart path{
+    color: red !important;
+}
+
+@keyframes like {
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

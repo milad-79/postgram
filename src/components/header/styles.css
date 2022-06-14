@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    height: 45px;
+    border-bottom: 1px solid #ced4da;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.h-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.h-logo h4{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    color: #2b2d42;
+}
+
+.h-right{
+    display: flex;
+    align-items: center;
+}
+
+.h-right-user{
+    display: flex;
+    align-items: center;
+}
+
+.h-button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.avatar-btn{
+    cursor: pointer;
+}
+
+.setting-icon,.email-icon{
+    color: #2b2d42 !important;
+}
+
+.setting-icon:hover{
+    animation: setting .7s;
+}
+
+.email-icon:hover{
+    animation: email .9s;
+}
+
+@keyframes setting {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }    
+}
+
+@keyframes email {
+    0%{
+        transform: rotate(45deg);
+    }
+    25%{
+        transform: rotate(-45deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}

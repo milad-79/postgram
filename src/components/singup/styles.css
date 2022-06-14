@@ -1,0 +1,56 @@
+.sing-up{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo-sing-up-img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.sing-up-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-sing-up{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.input-sing-up{
+    border-bottom: 1px solid lightgray;
+    padding: 3px 5px;
+    margin-bottom: 15px;
+}
+
+.sing-up-btn{
+    padding: 8px;
+    color: white;
+    background: linear-gradient(to right, #7b4397, #dc2430);
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.error-sing-up{
+    color: #dc2430;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sing-up-link{
+    color: #7b4397;
+    font-weight: bold;
+    cursor: pointer;
+}

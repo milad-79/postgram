@@ -1,0 +1,48 @@
+.body-messages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.user-inf{
+    display: flex;
+    align-items: center;
+}
+
+.user-img-message{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.user-message-inf{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.user-message-name{
+    font-size: 15px;
+    font-weight: bold;
+    color: #2b2d42;
+    cursor: pointer;
+}
+
+.user-message-message{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.time-sent{
+    font-size: 12px;
+    font-weight: bold;
+}
