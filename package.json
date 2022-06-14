@@ -25,7 +25,7 @@
     "redux-promise": "^0.6.0",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4",
-    "homepage": "http://milad-79.github.io/my-app"
+    "homepage": "http://milad-79.github.io/postgram"
   },
   "scripts": {
     "start": "react-scripts start",
